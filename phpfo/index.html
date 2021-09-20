@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment Form</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h2>UNIVERISTY OF AX</h2>
+    <form name="form1" action="ma.php" method="post">
+        <div class="container">
+            <div class="form_group">
+                <label>Name:</label>
+                <input type="text" name="fname" value="" required />
+            </div>
+            <div class="form_group">
+                <label>Email:</label>
+                <input type="email" name="email" value="" required />
+            </div>
+            <div class="form_group">
+                <label>Rollno:</label>
+                <input type="number" name="rollno" value="" required />
+            </div>
+            <div class="form_group">
+                <label>Upload PDF:</label>
+                <input type="file" accept="application/pdf" name="pdfs" value="" required />
+            </div>
+            <input type="submit" />
+        </div>
+    </form>
+</body>
+
+</html>
